@@ -81,10 +81,10 @@ async def on_member_join(member):
   if(guild.id==827206800788291646):
     print('entered here 1')
     channel = guild.get_channel(827206801324900396)
-    await channel.send(f'{member.mention} bhai, welcome to the steam.Enjoy aur Bakchodi pelo')
+    await channel.send(f'{member.mention} bhai, welcome to the steam.Enjoy ')
   if(guild.id==831528087401005156):
     channel = guild.get_channel(831528087401005159)
-    await channel.send(f'{member.mention} bhai, welcome to the steam.Enjoy aur Bakchodi pelo')
+    await channel.send(f'{member.mention} bhai, welcome to the steam.Enjoy ')
 
 
 
@@ -95,3 +95,4 @@ keep_alive()
 client.run(os.getenv('TOKEN'))
 
   
+
